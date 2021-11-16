@@ -1,14 +1,10 @@
-<script>
+<script setup>
 import BigScreen from './components/BigScreen/index.vue'
-
-export default {
-  components: {BigScreen}
-}
 </script>
 
 <template>
   <BigScreen style="background:#00aa91;">
-    <div style="font-size:100rem;">这里是100rem的内容</div>
+    <div style="font-size:50rem;">这里是50rem的内容</div>
   </BigScreen>
 </template>
 
